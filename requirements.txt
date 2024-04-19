@@ -1,11 +1,11 @@
 python-dotenv~=1.0.1
 torch~=2.2.2
 transformers~=4.39.3
-# bitsandbytes~=0.42.0; sys_platform == 'darwin'
-# bitsandbytes~=0.43.1; 'darwin' not in sys_platform 
-# accelerate~=0.28.0
-accelerate
-bitsandbytes
+bitsandbytes~=0.42.0; sys_platform == 'darwin'
+bitsandbytes~=0.43.1; 'darwin' not in sys_platform 
+accelerate~=0.28.0
+# accelerate
+# bitsandbytes
 pypdf~=4.1.0
 tiktoken~=0.6.0
 sentence-transformers~=2.5.1
